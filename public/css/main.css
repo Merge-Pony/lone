@@ -29,6 +29,30 @@ body {
     font-weight: 700;
 }
 
+.header-center {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header-center h1 {
+    font-family: 'Jura', sans-serif;
+    color: #fff;
+    margin: 0;
+    font-size: 4.5em;
+    font-weight: 400;
+    text-shadow: 0 2px 0 0px hsl(330, 100%, 25%),
+             0 3px 2px 0px hsla(330, 100%, 15%, 0.5);
+
+}
+
+.header-center h3 {
+    color: #DEDEDE;
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -185,7 +209,8 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    padding-bottom: 40px;    
+    background: url(../img/vid.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -236,4 +261,18 @@ hr.small {
 
 footer {
     padding: 100px 0;
+}
+
+#top {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.fit-video {
+    padding-left: 20px;
+}
+
+.more {
+    font-size: 1.3em;
 }
